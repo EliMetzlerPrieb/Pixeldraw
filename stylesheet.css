@@ -1,0 +1,11 @@
+.pixel {
+	background-color: grey;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+
+.pixel:hover {
+	background-color: black;
+}
