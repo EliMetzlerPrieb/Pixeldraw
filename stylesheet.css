@@ -1,11 +1,21 @@
 .pixel {
 	background-color: grey;
-	height: 100px;
-	width: 100px;
-	border-radius: 5px;
 }
 
 
 .pixel:hover {
 	background-color: black;
 }
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+td, tr {
+	margin: 0;
+	padding: 0;
+}
+
+
