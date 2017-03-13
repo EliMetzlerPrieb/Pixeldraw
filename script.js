@@ -41,7 +41,7 @@ function drawingPad(pixel_count=defaultPixel) {
 	// Resets function and prompts for a different size grid if desired
 	this.clear = function () { 
 		pixel_count = prompt("How big should the grid be? (In pixels)");
-		this.build;
+		this.build();
 	}
 }
 
