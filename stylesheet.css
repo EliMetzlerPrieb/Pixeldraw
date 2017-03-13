@@ -1,21 +1,36 @@
-.pixel {
-	background-color: grey;
-}
 
-
-.pixel:hover {
-	background-color: black;
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #ffffff;
 }
 
 table {
+	margin-right: auto;
+	margin-left: auto;
 	border-collapse: collapse;
 	border-spacing: 0;
+	margin-bottom: 20px;
 }
-
 
 td, tr {
 	margin: 0;
 	padding: 0;
 }
 
+form {
+	text-align: center;
+}
 
+.intro {
+	text-align: center;
+	display: block;
+
+}
+
+.pixel {
+	background-color: grey;
+}
